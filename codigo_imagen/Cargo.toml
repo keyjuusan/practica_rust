@@ -1,0 +1,15 @@
+[package]
+name = "codigo_imagen"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+dotenvy = "0.15.7"
+fast_image_resize = { version = "6.1.0", features = ["image"] }
+image = "0.25.10"
+imageproc = "0.27.0"
+regex = "1.13.1"
+tesseract-rs = "0.4.0"
+tokio = { version = "1.53.2", features = ["full"] }
+tracing = "0.1.44"
+tracing-subscriber = "0.3.23"
